@@ -1,0 +1,24 @@
+{
+    "name": "jao/crud",
+    "description": "CRUD para aprendizado",
+    "type": "project",
+    "license": "MIT",
+
+    "require":{
+	"coffeecode/datalayer": "1.1.*"
+    },
+
+
+    "autoload": {
+        "psr-4": {
+            "Source\\": "src/"
+        },
+	"files": ["src/Config.php"]
+    },
+    "authors": [
+        {
+            "name": "João Victor",
+            "email": ""
+        }
+    ]
+}
